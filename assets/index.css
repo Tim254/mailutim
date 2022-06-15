@@ -16,7 +16,7 @@ nav{
     padding: 1.5em; 
     color: black;
     font-weight: bold;
-    margin: 5% 5%;
+    margin: 2% 5%;
 
 }
 nav > ul {
@@ -59,4 +59,97 @@ span {
     display: inline-block;
     margin: 30px 0;
     border-radius: 10px;
+}
+.images {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.images img {
+    height: 90%;
+    position: absolute;
+}
+.skills {
+    margin: auto;
+    width: 90%;
+    padding: 5em 2em;
+}
+.skills h1 {
+    text-align: center;
+    font-size: 1.6em;
+}
+.description {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.rightside {
+    width: 50%;
+}
+.rightside h1 {
+    text-align: left;
+    font-size: 1.1em;
+    padding-bottom: 1.2em;
+}
+.rightside p {
+    font-size: 0.9em;
+    margin: ;
+}
+.rightside a {
+    background: #212121;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 10px;
+    transform: all 0.3s ease;
+}
+.rightside a:hover {
+    background: orange;
+}
+.leftside {
+    flex: 1;
+    margin-left: 2.5em;
+}
+.leftside .line {
+    margin-bottom: 1.8em ;
+    
+}
+.leftside .line .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftside .line .info span {
+    font-weight: 500;
+    font-size: 1.2em;
+}
+.leftside .line .bars {
+    background-color: lightgrey;
+    height: 0.4em;
+    width: 100%;
+    position: relative;
+}
+.leftside .line .bars::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    background-color: orange;
+
+}
+.leftside .html::before {
+    width: 90%;
+}
+.leftside .css::before {
+    width: 60%;
+}
+.leftside .c::before {
+    width: 50%;
+}
+.leftside .javascript::before {
+    width: 70%;
 }
